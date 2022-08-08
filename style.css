@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1080px;
+}
+header{
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 1px 1px purple;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 255, 0.219);
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    width: 55vw;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.menu li:hover{
+    color: purple;
+    background-color: rgba(0, 255, 255, 0.228);
+}
+.sobre{
+    text-align: center;
+    margin: 5vh 5vw;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+.sobre h1{
+    font-size: 3rem;
+}
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 3vw 2vh 3vw;
+    background-color: blanchedalmond;
+}
+.galeria p{
+    font-size: 2rem;
+    padding: 4vh 0;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+}
+.galeria figure{
+    width: 50%;
+    padding: 2vh 0;
+    display: flex;
+}
+.galeria img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; 
+}
+#comp{
+    width: 50%;
+    padding-bottom: 2vh;
+}
+.galeria img:hover{
+    border: 2px solid black;
+}
+.video{
+    font-size: 1.5rem;
+    padding: 4vh 0;
+    margin-left: 12vw;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+}
+.infos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.infos form{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infos input{
+    margin: 2vh 0;
+}
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10vh 0;
+}
+.copy{
+    padding-top: 5vh;
+}
